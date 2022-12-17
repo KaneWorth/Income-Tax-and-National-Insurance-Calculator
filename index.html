@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Income Tax and National Insurance Calculator</title>
+  </head>
+  <body>
+    <div>
+      <!--Title-->
+      <div class="title-container">
+        <div class="title">
+          <h1>Personal Income Tax and National Insurance Calculator</h1>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- How to Use -->
+    <div class="how-to-use-container">
+      <div class="how-to-use">
+        <h2>How to use</h2>
+        <p>
+          This calculator was designed with the purpose of giving the user a breif breakdown on how much they are liable
+          to pay towards their Personal Income Tax, and National Insurance contributions.
+        </p>
+        <p>
+          This calculator works, by taking your hourly pay, weekly hours worked, and from there it will automatically
+          calculate everything for you.
+        </p>
+        <ul>
+          <li>Simply enter your hourly pay, e.g £11.20 (only enter numbers and a decimal point)</li>
+
+          <li>Then below that, enter your weekly hours, e.g 35 (again, only numbers) then press submit.</li>
+
+          <li>
+            Below in the results section you will see a total break down with an end estimate of your take home pay
+            after deduction.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="input-container">
+      <div class="input">
+        <!-- Pay -->
+        <div class="pay">
+          <!-- <label for="hrRate">£:</label> -->
+          <input type="number" id="pay" placeholder=" £:" />
+        </div>
+
+        <!-- Hours -->
+        <div class="hourly">
+          <!-- <label>Hrs:</label> -->
+          <input type="number" class="hours" placeholder=" Hrs:" />
+        </div>
+
+        <!-- Submit Button -->
+        <button class="submitBtn">Submit</button>
+        <p class="input-instruction">Press the submit button for results.</p>
+      </div>
+    </div>
+
+    <hr />
+
+    <!--Result-->
+    <div class="result-container">
+      <div class="result">
+        <h2>Result</h2>
+        <p class="breakdown"></p>
+        <p class="breakdown1"></p>
+        <p class="breakdown2"></p>
+        <p class="breakdown3"></p>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p class="copyRight">Copyright © Kane Worth 2022.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
