@@ -17,6 +17,6 @@ This is only for the year 2021 - 2022. Tax rates are changing all the time so th
 
 Tax rates for the uk will be changing from April 2022 so unless I update it by then, it will no longer be accurate.
 
-I do intent on building on this project. namely, I want to add in a penson contribution function to it.
+I do intent on building on this project in the future. namely, I want to add in a pension contribution function to it.
 
 I also would like to add an additional calculator to this app, specifically for self employed individuals.
