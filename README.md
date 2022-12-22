@@ -20,3 +20,5 @@ Tax rates for the uk will be changing from April 2022 so unless I update it by t
 I do intent on building on this project in the future. namely, I want to add in a pension contribution function to it.
 
 I also would like to add an additional calculator to this app, specifically for self employed individuals.
+
+![taxcalculator](https://user-images.githubusercontent.com/115714856/209177387-cd6acd04-a5eb-4b49-9d4e-72adc4eec68b.png)
